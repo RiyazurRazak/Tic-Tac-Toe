@@ -1,0 +1,1 @@
+export const baseurl = process.env.NODE_ENV === "production" ? "https://tic-tac-toe-ws-backend.herokuapp.com/v1" : "http://localhost:8000/v1"

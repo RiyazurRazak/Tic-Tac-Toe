@@ -1,0 +1,35 @@
+.root{
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.root:hover{
+    background-color: #121212;
+}
+.root:nth-child(1),
+.root:nth-child(2),
+.root:nth-child(3) {
+ border-top: none;
+}
+.root:nth-child(1),
+.root:nth-child(4),
+.root:nth-child(7) {
+    border-left: none;
+}
+.root:nth-child(7),
+.root:nth-child(8),
+.root:nth-child(9) {
+    border-bottom: none;
+}
+.root:nth-child(3),
+.root:nth-child(6),
+.root:nth-child(9) {
+    border-right: none;
+}
+.disable{
+    pointer-events: none;
+}

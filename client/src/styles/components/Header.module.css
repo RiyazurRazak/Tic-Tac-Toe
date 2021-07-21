@@ -1,0 +1,21 @@
+.root{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+}
+.box{
+    display: block;
+}
+.row{
+   display: flex;
+   align-items: center;
+}
+.avatar{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    margin-right:20px;
+}
+.box:nth-child(2){
+    text-align: right;
+}

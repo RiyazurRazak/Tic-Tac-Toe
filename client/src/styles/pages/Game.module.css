@@ -1,0 +1,19 @@
+.board{
+    margin: auto;
+    width: 300px;
+    height:300px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(3, auto);
+    cursor: not-allowed;
+}
+.turnText{
+    text-align: center;
+    margin-top: 60px;
+}
+.dialog{
+    padding: 30px !important;
+}
